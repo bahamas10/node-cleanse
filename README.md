@@ -103,7 +103,7 @@ var cleanse = require('cleanse');
 cleanse(process.env);
 ```
 
-### `jsonsafeparse(obj, behavior='ignore')`
+### `cleanse(obj, behavior='ignore')`
 
 `cleanse` will recursively scan an object or array given and clean any and all
 reserved keys found in every object.  This method will also act as a noop if given
