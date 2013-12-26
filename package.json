@@ -1,6 +1,6 @@
 {
   "name": "cleanse",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Remove reserved keys like hasOwnProperty, toString, etc. on objects recursively",
   "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
   "main": "./cleanse.js",
