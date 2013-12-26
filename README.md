@@ -121,7 +121,7 @@ cleanse({x: 5, hasOwnProperty: 'foo'}, 'ignore')
 // => {x: 5}
 
 // throw will cause a SyntaxError to be thrown
-cleanse({x": 5, "hasOwnProperty": "foo"}, 'throw')
+cleanse({x: 5, hasOwnProperty: 'foo'}, 'throw')
 // => SyntaxError: reserved keyword "hasOwnProperty" found in object
 ```
 
