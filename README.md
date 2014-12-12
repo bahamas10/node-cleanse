@@ -47,7 +47,7 @@ TypeError: Cannot convert object to primitive value
 ```
 
 Take another example that mimics what you might see in a real-world node
-server, and imagine the data was sent by a user being nefarious.
+server, and imagine the data was sent by a nefarious user.
 
 ``` js
 var d = {
